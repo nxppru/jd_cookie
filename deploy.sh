@@ -9,7 +9,7 @@ cnpm i -g typescript ts-node @types/node tslib pm2
 
 cd ~
 wget http://soft.vpser.net/lnmp/lnmp1.8.tar.gz -cO lnmp1.8.tar.gz && tar zxf lnmp1.8.tar.gz && cd lnmp1.8 && LNMP_Auto="y" ./install.sh nginx
-curl https://ghproxy.com/https://raw.githubusercontent.com/JDHelloWorld/jd_cookie/main/nginx.conf > /usr/local/nginx/conf/nginx.conf
+curl https://raw.fastgit.org/JDHelloWorld/jd_cookie/main/nginx.conf > /usr/local/nginx/conf/nginx.conf
 /etc/init.d/nginx restart
 
 cd /home/wwwroot/default
